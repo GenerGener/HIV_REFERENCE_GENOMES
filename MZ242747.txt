@@ -1,0 +1,197 @@
+
+LOCUS       MZ242747                4286 bp    RNA     linear   SYN 08-NOV-2021
+DEFINITION  Mutant HIV-1 clone MSTRG.2.29 from USA genomic sequence.
+ACCESSION   MZ242747
+VERSION     MZ242747.1
+KEYWORDS    .
+SOURCE      Human immunodeficiency virus 1 (HIV-1)
+  ORGANISM  Human immunodeficiency virus 1
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus.
+REFERENCE   1  (bases 1 to 4286)
+  AUTHORS   Gener,A.R., Foley,B.T., Hyink,D.P., Klotman,P.E. and Kimata,J.T.
+  TITLE     The Transcriptional Landscape of HIV-1 Virion-Associated mRNA
+            Includes Sense Spliced and Unspliced Transcripts
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 4286)
+  AUTHORS   Gener,A.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAY-2021) Medicine, Nephrology, Baylor College of
+            Medicine, One Baylor Plaza, Mail Stop 710, Houston, TX 77030, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: StringTie v. 2.1.4
+            Assembly Name         :: MSTRG.2.29
+            Coverage              :: 5.880882
+            Sequencing Technology :: Nanopore
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4286
+                     /organism="Human immunodeficiency virus 1"
+                     /mol_type="genomic RNA"
+                     /strain="NL4-3"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:11676"
+                     /clone="MSTRG.2.29"
+                     /geo_loc_name="USA"
+                     /note="VIR(HIV-1)_ISO(NL4-3)_UTR(K)_ORF(F1)_SEG(1,0,1,1,0,
+                     0,0,1,1,1,1);
+                     group: M; subgroup: B"
+     misc_feature    1..290
+                     /note="locus segment 1; Minimal 5' UTR segment
+                     (constitutive)"
+     repeat_region   1..97
+                     /note="5' R repeat"
+     misc_feature    98..181
+                     /note="Unique 5' (U5)"
+     misc_feature    238..281
+                     /note="Psi SL1"
+     misc_feature    283..290
+                     /note="Psi SL2 (partial)"
+     misc_feature    291..340
+                     /note="locus segment 3; pol 1 segment"
+     misc_feature    341..436
+                     /note="locus segment 4; pol 2 segment"
+     misc_feature    437..635
+                     /note="locus segment 8; vpr-tat/rev segment"
+     CDS             490..708
+                     /note="Truncated unspliced Tat. Similar or identical to
+                     Tat-1."
+                     /codon_start=1
+                     /product="GENER13"
+                     /protein_id="UED13480.1"
+                     /translation="MEPVDPRLEPWKHPGSQPKTACTNCYCKKCCFHCQVCFMTKALG
+                     ISYGRKKRRQRRRAHQNSQTHQASLSKQ"
+     CDS             629..712
+                     /note="Truncated unspliced Rev."
+                     /codon_start=1
+                     /product="GENER14"
+                     /protein_id="UED13481.1"
+                     /translation="MAGRSGDSDEELIRTVRLIKLLYQSSK"
+     misc_feature    636..704
+                     /note="locus segment 9; tat/rev segment (constitutive)"
+     misc_feature    705..3028
+                     /note="locus segment 10; vpu/env segment"
+     CDS             721..966
+                     /codon_start=1
+                     /product="Vpu protein"
+                     /protein_id="UED13482.1"
+                     /translation="MQPIIVAIVALVVAIIIAIVVWSIVIIEYRKILRQRKIDRLIDR
+                     LIERAEDSGNESEGEVSALVEMGVEMGHHAPWDIDDL"
+     CDS             881..3445
+                     /codon_start=1
+                     /product="Env polyprotein"
+                     /protein_id="UED13483.1"
+                     /translation="MRVKEKYQHLWRWGWKWGTMLLGILMICSATEKLWVTVYYGVPV
+                     WKEATTTLFCASDAKAYDTEVHNVWATHACVPTDPNPQEVVLVNVTENFNMWKNDMVE
+                     QMHEDIISLWDQSLKPCVKLTPLCVSLKCTDLKNDTNTNSSSGRMIMEKGEIKNCSFN
+                     ISTSIRDKVQKEYAFFYKLDIVPIDNTSYRLISCNTSVITQACPKVSFEPIPIHYCAP
+                     AGFAILKCNNKTFNGTGPCTNVSTVQCTHGIRPVVSTQLLLNGSLAEEDVVIRSANFT
+                     DNAKTIIVQLNTSVEINCTRPNNNTRKSIRIQRGPGRAFVTIGKIGNMRQAHCNISRA
+                     KWNATLKQIASKLREQFGNNKTIIFKQSSGGDPEIVTHSFNCGGEFFYCNSTQLFNST
+                     WFNSTWSTEGSNNTEGSDTITLPCRIKQFINMWQEVGKAMYAPPISGQIRCSSNITGL
+                     LLTRDGGNNNNGSEIFRPGGGDMRDNWRSELYKYKVVKIEPLGVAPTKAKRRVVQREK
+                     RAVGIGALFLGFLGAAGSTMGAASMTLTVQARQLLSDIVQQQNNLLRAIEAQQHLLQL
+                     TVWGIKQLQARILAVERYLKDQQLLGIWGCSGKLICTTAVPWNASWSNKSLEQIWNNM
+                     TWMEWDREINNYTSLIHSLIEESQNQQEKNEQELLELDKWASLWNWFNITNWLWYIKL
+                     FIMIVGGLVGLRIVFAVLSIVNRVRQGYSPLSFQTHLPIPRGPDRPEGIEEEGGERDR
+                     DRSIRLVNGSLALIWDDLRSLCLFSYHRLRDLLLIVTRIVELLGRRGWEALKYWWNLL
+                     QYWSQELKNSAVNLLNATAIAVAEGTDRVIEVLQAAYRAIRHIPRRIRQGLERILL"
+     misc_feature    881..2407
+                     /product="gp120"
+     misc_feature    2408..3442
+                     /product="gp41"
+     misc_feature    2419..2652
+                     /note="Rev response element (RRE)"
+     misc_feature    3029..4286
+                     /note="locus segment 11; 3' terminus (constitutive)"
+     CDS             3447..4067
+                     /codon_start=1
+                     /product="Nef protein"
+                     /protein_id="UED13484.1"
+                     /translation="MGGKWSKSSVIGWPAVRERMRRAEPAADGVGAVSRDLEKHGAIT
+                     SSNTAANNAACAWLEAQEEEEVGFPVTPQVPLRPMTYKAAVDLSHFLKEKGGLEGLIH
+                     SQRRQDILDLWIYHTQGYFPDWQNYTPGPGVRYPLTFGWCYKLVPVEPDKVEEANKGE
+                     NTSLLHPVSLHGMDDPEREVLEWRFDSRLAFHHVARELHPEYFKNC"
+     misc_feature    3736..4188
+                     /note="Unique 3' (U3)"
+     repeat_region   4189..4286
+                     /note="3' R repeat"
+     regulatory      4262..4267
+                     /regulatory_class="polyA_signal_sequence"
+                     /note="Canonical polyA"
+     misc_feature    4284..4286
+                     /note="Manual insertion"
+ORIGIN      
+        1 gggtctctct ggttagacca gatctgagcc tgggagctct ctggctaact agggaaccca
+       61 ctgcttaagc ctcaataaag cttgccttga gtgctcaaag tagtgtgtgc ccgtctgttg
+      121 tgtgactctg gtaactagag atccctcaga cccttttagt cagtgtggaa aatctctagc
+      181 agtggcgccc gaacagggac ttgaaagcga aagtaaagcc agaggagatc tctcgacgca
+      241 ggactcggct tgctgaagcg cgcacggcaa gaggcgaggg gcggcgactg ggacagcaga
+      301 gatccagttt ggaaaggacc agcaaagctc ctctggaaag gtgaaggggc agtagtaata
+      361 caagataata gtgacataaa agtagtgcca agaagaaaag caaagatcat cagggattat
+      421 ggaaaacaga tggcagaatt gggtgtcgac atagcagaat aggcgttact cgacagagga
+      481 gagcaagaaa tggagccagt agatcctaga ctagagccct ggaagcatcc aggaagtcag
+      541 cctaaaactg cttgtaccaa ttgctattgt aaaaagtgtt gctttcattg ccaagtttgt
+      601 ttcatgacaa aagccttagg catctcctat ggcaggaaga agcggagaca gcgacgaaga
+      661 gctcatcaga acagtcagac tcatcaagct tctctatcaa agcagtaagt agtacatgta
+      721 atgcaaccta taatagtagc aatagtagca ttagtagtag caataataat agcaatagtt
+      781 gtgtggtcca tagtaatcat agaatatagg aaaatattaa gacaaagaaa aatagacagg
+      841 ttaattgata gactaataga aagagcagaa gacagtggca atgagagtga aggagaagta
+      901 tcagcacttg tggagatggg ggtggaaatg gggcaccatg ctccttggga tattgatgat
+      961 ctgtagtgct acagaaaaat tgtgggtcac agtctattat ggggtacctg tgtggaagga
+     1021 agcaaccacc actctatttt gtgcatcaga tgctaaagca tatgatacag aggtacataa
+     1081 tgtttgggcc acacatgcct gtgtacccac agaccccaac ccacaagaag tagtattggt
+     1141 aaatgtgaca gaaaatttta acatgtggaa aaatgacatg gtagaacaga tgcatgagga
+     1201 tataatcagt ttatgggatc aaagcctaaa gccatgtgta aaattaaccc cactctgtgt
+     1261 tagtttaaag tgcactgatt tgaagaatga tactaatacc aatagtagta gcgggagaat
+     1321 gataatggag aaaggagaga taaaaaactg ctctttcaat atcagcacaa gcataagaga
+     1381 taaggtgcag aaagaatatg cattctttta taaacttgat atagtaccaa tagataatac
+     1441 cagctatagg ttgataagtt gtaacacctc agtcattaca caggcctgtc caaaggtatc
+     1501 ctttgagcca attcccatac attattgtgc cccggctggt tttgcgattc taaaatgtaa
+     1561 taataagacg ttcaatggaa caggaccatg tacaaatgtc agcacagtac aatgtacaca
+     1621 tggaatcagg ccagtagtat caactcaact gctgttaaat ggcagtctag cagaagaaga
+     1681 tgtagtaatt agatctgcca atttcacaga caatgctaaa accataatag tacagctgaa
+     1741 cacatctgta gaaattaatt gtacaagacc caacaacaat acaagaaaaa gtatccgtat
+     1801 ccagagggga ccagggagag catttgttac aataggaaaa ataggaaata tgagacaagc
+     1861 acattgtaac attagtagag caaaatggaa tgccacttta aaacagatag ctagcaaatt
+     1921 aagagaacaa tttggaaata ataaaacaat aatctttaag caatcctcag gaggggaccc
+     1981 agaaattgta acgcacagtt ttaattgtgg aggggaattt ttctactgta attcaacaca
+     2041 actgtttaat agtacttggt ttaatagtac ttggagtact gaagggtcaa ataacactga
+     2101 aggaagtgac acaatcacac tcccatgcag aataaaacaa tttataaaca tgtggcagga
+     2161 agtaggaaaa gcaatgtatg cccctcccat cagtggacaa attagatgtt catcaaatat
+     2221 tactgggctg ctattaacaa gagatggtgg taataacaac aatgggtccg agatcttcag
+     2281 acctggagga ggcgatatga gggacaattg gagaagtgaa ttatataaat ataaagtagt
+     2341 aaaaattgaa ccattaggag tagcacccac caaggcaaag agaagagtgg tgcagagaga
+     2401 aaaaagagca gtgggaatag gagctttgtt ccttgggttc ttgggagcag caggaagcac
+     2461 tatgggcgca gcgtcaatga cgctgacggt acaggccaga caattattgt ctgatatagt
+     2521 gcagcagcag aacaatttgc tgagggctat tgaggcgcaa cagcatctgt tgcaactcac
+     2581 agtctggggc atcaaacagc tccaggcaag aatcctggct gtggaaagat acctaaagga
+     2641 tcaacagctc ctggggattt ggggttgctc tggaaaactc atttgcacca ctgctgtgcc
+     2701 ttggaatgct agttggagta ataaatctct ggaacagatt tggaataaca tgacctggat
+     2761 ggagtgggac agagaaatta acaattacac aagcttaata cactccttaa ttgaagaatc
+     2821 gcaaaaccag caagaaaaga atgaacaaga attattggaa ttagataaat gggcaagttt
+     2881 gtggaattgg tttaacataa caaattggct gtggtatata aaattattca taatgatagt
+     2941 aggaggcttg gtaggtttaa gaatagtttt tgctgtactt tctatagtga atagagttag
+     3001 gcagggatat tcaccattat cgtttcagac ccacctccca atcccgaggg gacccgacag
+     3061 gcccgaagga atagaagaag aaggtggaga gagagacaga gacagatcca ttcgattagt
+     3121 gaacggatcc ttagcactta tctgggacga tctgcggagc ctgtgcctct tcagctacca
+     3181 ccgcttgaga gacttactct tgattgtaac gaggattgtg gaacttctgg gacgcagggg
+     3241 gtgggaagcc ctcaaatatt ggtggaatct cctacagtat tggagtcagg aactaaagaa
+     3301 tagtgctgtt aacttgctca atgccacagc catagcagta gctgagggga cagatagggt
+     3361 tatagaagta ttacaagcag cttatagagc tattcgccac atacctagaa gaataagaca
+     3421 gggcttggaa aggattttgc tataagatgg gtggcaagtg gtcaaaaagt agtgtgattg
+     3481 gatggcctgc tgtaagggaa agaatgagac gagctgagcc agcagcagat ggggtgggag
+     3541 cagtatctcg agacctagaa aaacatggag caatcacaag tagcaataca gcagctaaca
+     3601 atgctgcttg tgcctggcta gaagcacaag aggaggaaga ggtgggtttt ccagtcacac
+     3661 ctcaggtacc tttaagacca atgacttaca aggcagctgt agatcttagc cactttttaa
+     3721 aagaaaaggg gggactggaa gggctaattc actcccaaag aagacaagat atccttgatc
+     3781 tgtggatcta ccacacacaa ggctacttcc ctgattggca gaactacaca ccagggccag
+     3841 gggtcagata tccactgacc tttggatggt gctacaagct agtaccagtt gagccagata
+     3901 aggtagaaga ggccaataaa ggagagaaca ccagcttgtt acaccctgtg agcctgcatg
+     3961 gaatggatga ccctgagaga gaagtgttag agtggaggtt tgacagccgc ctagcatttc
+     4021 atcacgtggc ccgagagctg catccggagt acttcaagaa ctgctgacat cgagcttgct
+     4081 acaagggact ttccgctggg gactttccag ggaggcgtgg cctgggcggg actggggagt
+     4141 ggcgagccct cagatgctgc atataagcag ctgctttttg cctgtactgg gtctctctgg
+     4201 ttagaccaga tctgagcctg ggagctctct ggctaactag ggaacccact gcttaagcct
+     4261 caataaagct tgccttgagt gcttca
+//

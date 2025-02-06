@@ -1,0 +1,140 @@
+
+LOCUS       MZ242740                2253 bp    RNA     linear   SYN 08-NOV-2021
+DEFINITION  Mutant HIV-1 clone MSTRG.2.22 from USA genomic sequence.
+ACCESSION   MZ242740
+VERSION     MZ242740.1
+KEYWORDS    .
+SOURCE      Human immunodeficiency virus 1 (HIV-1)
+  ORGANISM  Human immunodeficiency virus 1
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus.
+REFERENCE   1  (bases 1 to 2253)
+  AUTHORS   Gener,A.R., Foley,B.T., Hyink,D.P., Klotman,P.E. and Kimata,J.T.
+  TITLE     The Transcriptional Landscape of HIV-1 Virion-Associated mRNA
+            Includes Sense Spliced and Unspliced Transcripts
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2253)
+  AUTHORS   Gener,A.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAY-2021) Medicine, Nephrology, Baylor College of
+            Medicine, One Baylor Plaza, Mail Stop 710, Houston, TX 77030, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: StringTie v. 2.1.4
+            Assembly Name         :: MSTRG.2.22
+            Coverage              :: 64.447647
+            Sequencing Technology :: Nanopore
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2253
+                     /organism="Human immunodeficiency virus 1"
+                     /mol_type="genomic RNA"
+                     /strain="NL4-3"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:11676"
+                     /clone="MSTRG.2.22"
+                     /geo_loc_name="USA"
+                     /note="VIR(HIV-1)_ISO(NL4-3)_UTR(Q)_ORF(E)_SEG(1,0,1,0,0,
+                     1,1,1,1,0,1);
+                     group: M; subgroup: B"
+     misc_feature    1..290
+                     /note="locus segment 1; Minimal 5' UTR segment
+                     (constitutive)"
+     repeat_region   1..97
+                     /note="5' R repeat"
+     misc_feature    98..181
+                     /note="Unique 5' (U5)"
+     misc_feature    238..281
+                     /note="Psi SL1"
+     misc_feature    283..290
+                     /note="Psi SL2 (partial)"
+     misc_feature    291..340
+                     /note="locus segment 3; pol 1 segment"
+     misc_feature    341..414
+                     /note="locus segment 6; vif 2 segment"
+     misc_feature    415..727
+                     /note="locus segment 7; vif-vpr segment"
+     CDS             510..800
+                     /codon_start=1
+                     /product="Vpr protein"
+                     /protein_id="UED13453.1"
+                     /translation="MEQAPEDQGPQREPYNEWTLELLEELKSEAVRHFPRIWLHNLGQ
+                     HIYETYGDTWAGVEAIIRILQQLLFIHFRIGCRHSRIGVTRQRRARNGASRS"
+     misc_feature    694..699
+                     /note="EcoRI site of recombination"
+     misc_feature    728..926
+                     /note="locus segment 8; vpr-tat/rev segment"
+     CDS             781..1041
+                     /note="Also called Tat-2."
+                     /codon_start=1
+                     /product="Tat protein"
+                     /protein_id="UED13454.1"
+                     /translation="MEPVDPRLEPWKHPGSQPKTACTNCYCKKCCFHCQVCFMTKALG
+                     ISYGRKKRRQRRRAHQNSQTHQASLSKQPTSQSRGDPTGPKE"
+     CDS             920..1270
+                     /codon_start=1
+                     /product="Rev protein"
+                     /protein_id="UED13455.1"
+                     /translation="MAGRSGDSDEELIRTVRLIKLLYQSNPPPNPEGTRQARRNRRRR
+                     WRERQRQIHSISERILSTYLGRSAEPVPLQLPPLERLTLDCNEDCGTSGTQGVGSPQI
+                     LVESPTVLESGTKE"
+     misc_feature    927..995
+                     /note="locus segment 9; tat/rev segment (constitutive)"
+     misc_feature    996..2253
+                     /note="locus segment 11; 3' terminus (constitutive)"
+     CDS             1414..2034
+                     /codon_start=1
+                     /product="Nef protein"
+                     /protein_id="UED13456.1"
+                     /translation="MGGKWSKSSVIGWPAVRERMRRAEPAADGVGAVSRDLEKHGAIT
+                     SSNTAANNAACAWLEAQEEEEVGFPVTPQVPLRPMTYKAAVDLSHFLKEKGGLEGLIH
+                     SQRRQDILDLWIYHTQGYFPDWQNYTPGPGVRYPLTFGWCYKLVPVEPDKVEEANKGE
+                     NTSLLHPVSLHGMDDPEREVLEWRFDSRLAFHHVARELHPEYFKNC"
+     misc_feature    1703..2155
+                     /note="Unique 3' (U3)"
+     repeat_region   2156..2253
+                     /note="3' R repeat"
+     regulatory      2229..2234
+                     /regulatory_class="polyA_signal_sequence"
+                     /note="Canonical polyA"
+     misc_feature    2251..2253
+                     /note="Manual insertion"
+ORIGIN      
+        1 gggtctctct ggttagacca gatctgagcc tgggagctct ctggctaact agggaaccca
+       61 ctgcttaagc ctcaataaag cttgccttga gtgctcaaag tagtgtgtgc ccgtctgttg
+      121 tgtgactctg gtaactagag atccctcaga cccttttagt cagtgtggaa aatctctagc
+      181 agtggcgccc gaacagggac ttgaaagcga aagtaaagcc agaggagatc tctcgacgca
+      241 ggactcggct tgctgaagcg cgcacggcaa gaggcgaggg gcggcgactg ggacagcaga
+      301 gatccagttt ggaaaggacc agcaaagctc ctctggaaag aatctgctat aagaaatacc
+      361 atattaggac gtatagttag tcctaggtgt gaatatcaag caggacataa caaggtagga
+      421 tctctacagt acttggcact agcagcatta ataaaaccaa aacagataaa gccacctttg
+      481 cctagtgtta ggaaactgac agaggacaga tggaacaagc cccagaagac caagggccac
+      541 agagggagcc atacaatgaa tggacactag agcttttaga ggaacttaag agtgaagctg
+      601 ttagacattt tcctaggata tggctccata acttaggaca acatatctat gaaacttacg
+      661 gggatacttg ggcaggagtg gaagccataa taagaattct gcaacaactg ctgtttatcc
+      721 atttcagaat tgggtgtcga catagcagaa taggcgttac tcgacagagg agagcaagaa
+      781 atggagccag tagatcctag actagagccc tggaagcatc caggaagtca gcctaaaact
+      841 gcttgtacca attgctattg taaaaagtgt tgctttcatt gccaagtttg tttcatgaca
+      901 aaagccttag gcatctccta tggcaggaag aagcggagac agcgacgaag agctcatcag
+      961 aacagtcaga ctcatcaagc ttctctatca aagcaaccca cctcccaatc ccgaggggac
+     1021 ccgacaggcc cgaaggaata gaagaagaag gtggagagag agacagagac agatccattc
+     1081 gattagtgaa cggatcctta gcacttatct gggacgatct gcggagcctg tgcctcttca
+     1141 gctaccaccg cttgagagac ttactcttga ttgtaacgag gattgtggaa cttctgggac
+     1201 gcagggggtg ggaagccctc aaatattggt ggaatctcct acagtattgg agtcaggaac
+     1261 taaagaatag tgctgttaac ttgctcaatg ccacagccat agcagtagct gaggggacag
+     1321 atagggttat agaagtatta caagcagctt atagagctat tcgccacata cctagaagaa
+     1381 taagacaggg cttggaaagg attttgctat aagatgggtg gcaagtggtc aaaaagtagt
+     1441 gtgattggat ggcctgctgt aagggaaaga atgagacgag ctgagccagc agcagatggg
+     1501 gtgggagcag tatctcgaga cctagaaaaa catggagcaa tcacaagtag caatacagca
+     1561 gctaacaatg ctgcttgtgc ctggctagaa gcacaagagg aggaagaggt gggttttcca
+     1621 gtcacacctc aggtaccttt aagaccaatg acttacaagg cagctgtaga tcttagccac
+     1681 tttttaaaag aaaagggggg actggaaggg ctaattcact cccaaagaag acaagatatc
+     1741 cttgatctgt ggatctacca cacacaaggc tacttccctg attggcagaa ctacacacca
+     1801 gggccagggg tcagatatcc actgaccttt ggatggtgct acaagctagt accagttgag
+     1861 ccagataagg tagaagaggc caataaagga gagaacacca gcttgttaca ccctgtgagc
+     1921 ctgcatggaa tggatgaccc tgagagagaa gtgttagagt ggaggtttga cagccgccta
+     1981 gcatttcatc acgtggcccg agagctgcat ccggagtact tcaagaactg ctgacatcga
+     2041 gcttgctaca agggactttc cgctggggac tttccaggga ggcgtggcct gggcgggact
+     2101 ggggagtggc gagccctcag atgctgcata taagcagctg ctttttgcct gtactgggtc
+     2161 tctctggtta gaccagatct gagcctggga gctctctggc taactaggga acccactgct
+     2221 taagcctcaa taaagcttgc cttgagtgct tca
+//
