@@ -9,4 +9,6 @@ N=555 set from LANL:
 
 | Alignment type	| Year	| Organism	| DNA/Protein |	Region	| Subtype	| Format	| Alignment ID 	| Number of sequences |
 | :- | :- | :- | :- | :- | :- | :- | :- | :- |
-| Subtype reference	| 2023	| HIV-1/SIVcpz	| DNA	| genome	| ALL	| FASTA	| 123RG1	| 555 |
+| Subtype reference	| 2023	| HIV-1/SIVcpz	| DNA	| genome	| ALL	| EMBL*	| 123RG1	| 555 |
+
+*Uploaded from ENA API on 06 February 2025 12:41 AM PST. 
